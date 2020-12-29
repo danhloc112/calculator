@@ -98,7 +98,7 @@ jq(document).ready(function() {
             displayInput(displayText)
         }
         else if (value == 'del') {
-            if(!inputField.val()) {
+            if(!displayText) {
                 result = '';
                 sign = '';
                 firstNum = '';
