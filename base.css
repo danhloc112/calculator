@@ -1,0 +1,23 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --text-color: rgba(51, 51, 51, 0.9);
+    --main-color: #90c0cc;
+    --main-color-night: #5a6061;
+    --btn-color-night: #414049;
+    --active-color: #6c9eeb;
+    --hover-color: #83bda7;
+    --white-color: #fff;
+    --background-color-night: rgb(40, 51, 58);
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 2rem ;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+

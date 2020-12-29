@@ -1,0 +1,120 @@
+.main {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(51, 51, 51, 0.315);
+}
+.title {
+    color: var(--active-color);
+    font-weight: 500;
+    font-size: 3.6rem;
+    text-align: center;
+    padding: 40px 0 30px;
+    font-family: 'Hanalei Fill', cursive;
+}
+.result {
+    background-color: var(--white-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 80px;
+}
+.input-display, .result-display {
+    height: 40px;
+    padding-top: 10px;
+    font-size: 2.2rem;
+    text-align: right;
+    color: var(--text-color);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    overflow: hidden
+}
+.input-display {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.315);
+    font-weight: 400;
+}
+.input-btns {
+    padding: 30px 0px 20px 14px;
+    /* display: block */
+    text-align: center;
+}
+.input-line {
+    display: inline-flex;
+    /* width: 100%; */
+    /* padding-left: 3rem; */
+}
+.btn {
+    color: var(--text-color);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2.4rem;
+    cursor: pointer;
+    margin: 6px 7px;
+    background-color: var(--white-color);  
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.btn svg {
+    width: 2rem;
+    fill: var(--text-color);
+}
+.day {
+    display: none;
+}
+.equal {
+    background-color: var(--active-color);
+}
+.btn:hover {
+    background-color: var(--hover-color);
+}
+.btn:focus {
+    outline: none;
+    background-color: rgba(67, 161, 108, 0.664);
+}
+
+.body-night {
+    background-color: var(--background-color-night);
+}
+.btn-night {
+    color: white;
+    background-color: var(--btn-color-night);
+}
+.div-night {
+    background-color: #ddd;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.192);
+
+}
+.result-night {
+    background-color: var(--background-color-night);
+}
+.text-night {
+    color: white;
+}
+.border-night {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+}
+@media (min-width: 320px) and (max-width: 374px) {
+    .btn {
+        width: 40px;
+        height: 40px;
+        margin: 4px 6px;
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 375px) and (max-width: 413px) {
+    .btn {
+        width: 50px;
+        height: 50px;
+        margin: 4px 6px;
+        font-size: 1.8rem;
+    }
+}
+/* @media (min-width: 600px) and (max-width: 765px) {
+    .btn {
+        width: 60px;
+        height: 60px;
+        margin: 4px 6px;
+        font-size: 1.8rem;
+    }
+        
+} */
