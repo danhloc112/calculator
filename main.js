@@ -98,6 +98,13 @@ jq(document).ready(function() {
             displayInput(displayText)
         }
         else if (value == 'del') {
+            if(!inputField.val()) {
+                result = '';
+                sign = '';
+                firstNum = '';
+                secondNum = '';
+                resultField.empty()
+            }
             if (secondNum) {
                 secondNum = secondNum.toString()
                 // console.log(typeof secondNum)
